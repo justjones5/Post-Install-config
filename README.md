@@ -22,34 +22,39 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <h2>Post-Install Configuration Objectives</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Adding Roles
+- Permissions
+- Configure Departments
+- Teams
+- creating tickets/ users
+- Agents
+- Configuring SLA
+- Help Topics
 
 <h2>Configuration Steps</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+Step 1: Open osTicket and log in using the credentials created during the installation process.
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+![image](https://github.com/user-attachments/assets/35384838-f306-4f91-bc3d-9b42fe317a1d)
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+
+Step 2: Configure Roles
+
+-Ensure you’re in the Admin panel (check the top-right corner; it should display "Agent" if you’re in the Admin panel).
+- Go to the Agent tab, then select Roles > Add New Role.
+      - Enter the name Supreme Admin.
+      - Check all boxes under the Tickets, Tasks, and Knowledgebase sections in the Permissions tab.
+Click Add Role.
+
+![image](https://github.com/user-attachments/assets/41afd265-415a-40b4-80f7-9bfa2f4754df)
+![image](https://github.com/user-attachments/assets/0227afc1-2088-4ec1-9866-cb4edfe8b72a)
+
+Step 3: Configure Departments
+- Confirm that you're still in the Admin panel.
+- Go to the Agent tab, then select Departments > Add New Department.
+    - Enter System Administrators as the department name.
+- Click Create Department.
+
+![image](https://github.com/user-attachments/assets/540f1e92-b91a-45ed-9e02-a064b69f301e)
+![image](https://github.com/user-attachments/assets/07b0f651-e9f3-446f-a4ea-751c853a2f29)
+
